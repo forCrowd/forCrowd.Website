@@ -8,9 +8,9 @@ using System.Web.Mvc;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
-using MainWebsite.Models;
+using Web.Models;
 
-namespace MainWebsite.Controllers
+namespace Web.Controllers
 {
     [Authorize]
     public class AccountController : Controller
