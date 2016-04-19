@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("forCrowd.org")]
-[assembly: AssemblyDescription("Website of forCrowd Foundation; http://forcrowd.org")]
+[assembly: AssemblyTitle("forCrowd Website")]
+[assembly: AssemblyDescription("forCrowd Foundation Website")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("forCrowd Foundation")]
-[assembly: AssemblyProduct("forCrowd.org")]
+[assembly: AssemblyProduct("forCrowd Website")]
 [assembly: AssemblyCopyright("")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("c72dca7e-502d-4b64-88d7-d7eb442ee9e4")]
+[assembly: Guid("1ec4c706-216b-46f0-961b-1daa56e8653f")]
 
 // Version information for an assembly consists of the following four values:
 //
@@ -31,5 +31,5 @@ using System.Runtime.InteropServices;
 //
 // You can specify all the values or you can default the Revision and Build Numbers
 // by using the '*' as shown below:
-[assembly: AssemblyVersion("0.2.0.0")]
+[assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]
