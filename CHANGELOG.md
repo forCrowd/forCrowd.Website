@@ -1,5 +1,9 @@
 ### Changelog
 
+**1.0.1**
+
+backstretch background color update
+
 **1.0.0**
 
 New boostrap template from Unify template pack:
