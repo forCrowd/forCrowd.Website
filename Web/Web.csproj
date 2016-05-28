@@ -1,5 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.1\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.1\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.2.2\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.2.2\build\Microsoft.Net.Compilers.props')" />
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -7,13 +9,13 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{C8F09105-8598-47FA-8C6B-65C571AE5659}</ProjectGuid>
+    <ProjectGuid>{F8786A57-F3BB-43E0-82C8-FF9897F9CB05}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Web</RootNamespace>
-    <AssemblyName>Web</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <RootNamespace>forCrowd.Website.Web</RootNamespace>
+    <AssemblyName>forCrowd.Website.Web</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -21,6 +23,8 @@
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
     <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -40,11 +44,18 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.8.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
-    <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
@@ -52,189 +63,424 @@
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Web" />
-    <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Web.Abstractions" />
     <Reference Include="System.Web.Routing" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Configuration" />
-    <Reference Include="System.Web.Services" />
-    <Reference Include="System.EnterpriseServices" />
-    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <Private>True</Private>
-      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
-    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Net.Http">
+    </Reference>
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.3\lib\net45\System.Net.Http.Formatting.dll</HintPath>
     </Reference>
     <Reference Include="System.Net.Http.WebRequest">
     </Reference>
-    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <Private>True</Private>
-      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.2\lib\net45\System.Web.Helpers.dll</HintPath>
+    <Reference Include="System.Web.Http, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.3\lib\net45\System.Web.Http.dll</HintPath>
     </Reference>
-    <Reference Include="System.Web.Mvc, Version=__MvcPagesVersion__, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <Private>True</Private>
-      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.2\lib\net45\System.Web.Mvc.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Web.Optimization">
-      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <Private>True</Private>
-      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.2\lib\net45\System.Web.Razor.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <Private>True</Private>
-      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.2\lib\net45\System.Web.WebPages.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <Private>True</Private>
-      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.2\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <Private>True</Private>
-      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.2\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
-    </Reference>
-    <Reference Include="WebGrease">
-      <Private>True</Private>
-      <HintPath>..\packages\WebGrease.1.5.2\lib\WebGrease.dll</HintPath>
-    </Reference>
-    <Reference Include="Antlr3.Runtime">
-      <Private>True</Private>
-      <HintPath>..\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll</HintPath>
+    <Reference Include="System.Web.Http.WebHost, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.5.2.3\lib\net45\System.Web.Http.WebHost.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="EntityFramework">
-      <HintPath>..\packages\EntityFramework.6.1.1\lib\net45\EntityFramework.dll</HintPath>
-    </Reference>
-    <Reference Include="EntityFramework.SqlServer">
-      <HintPath>..\packages\EntityFramework.6.1.1\lib\net45\EntityFramework.SqlServer.dll</HintPath>
-    </Reference>
     <Reference Include="Microsoft.AspNet.Identity.Core">
-      <HintPath>..\packages\Microsoft.AspNet.Identity.Core.2.1.0\lib\net45\Microsoft.AspNet.Identity.Core.dll</HintPath>
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Core.2.2.1\lib\net45\Microsoft.AspNet.Identity.Core.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.AspNet.Identity.Owin">
-      <HintPath>..\packages\Microsoft.AspNet.Identity.Owin.2.1.0\lib\net45\Microsoft.AspNet.Identity.Owin.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.AspNet.Identity.EntityFramework">
-      <HintPath>..\packages\Microsoft.AspNet.Identity.EntityFramework.2.1.0\lib\net45\Microsoft.AspNet.Identity.EntityFramework.dll</HintPath>
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Owin.2.2.1\lib\net45\Microsoft.AspNet.Identity.Owin.dll</HintPath>
     </Reference>
     <Reference Include="Owin">
       <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Owin">
-      <HintPath>..\packages\Microsoft.Owin.3.0.0\lib\net45\Microsoft.Owin.dll</HintPath>
+      <HintPath>..\packages\Microsoft.Owin.3.0.1\lib\net45\Microsoft.Owin.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Owin.Host.SystemWeb">
-      <HintPath>..\packages\Microsoft.Owin.Host.SystemWeb.3.0.0\lib\net45\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
+      <HintPath>..\packages\Microsoft.Owin.Host.SystemWeb.3.0.1\lib\net45\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Owin.Security">
-      <HintPath>..\packages\Microsoft.Owin.Security.3.0.0\lib\net45\Microsoft.Owin.Security.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Owin.Security.Facebook">
-      <HintPath>..\packages\Microsoft.Owin.Security.Facebook.3.0.0\lib\net45\Microsoft.Owin.Security.Facebook.dll</HintPath>
+      <HintPath>..\packages\Microsoft.Owin.Security.3.0.1\lib\net45\Microsoft.Owin.Security.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Owin.Security.Cookies">
-      <HintPath>..\packages\Microsoft.Owin.Security.Cookies.3.0.0\lib\net45\Microsoft.Owin.Security.Cookies.dll</HintPath>
+      <HintPath>..\packages\Microsoft.Owin.Security.Cookies.3.0.1\lib\net45\Microsoft.Owin.Security.Cookies.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Owin.Security.OAuth">
-      <HintPath>..\packages\Microsoft.Owin.Security.OAuth.3.0.0\lib\net45\Microsoft.Owin.Security.OAuth.dll</HintPath>
+      <HintPath>..\packages\Microsoft.Owin.Security.OAuth.3.0.1\lib\net45\Microsoft.Owin.Security.OAuth.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.Owin.Security.Google">
-      <HintPath>..\packages\Microsoft.Owin.Security.Google.3.0.0\lib\net45\Microsoft.Owin.Security.Google.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Owin.Security.Twitter">
-      <HintPath>..\packages\Microsoft.Owin.Security.Twitter.3.0.0\lib\net45\Microsoft.Owin.Security.Twitter.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Owin.Security.MicrosoftAccount">
-      <HintPath>..\packages\Microsoft.Owin.Security.MicrosoftAccount.3.0.0\lib\net45\Microsoft.Owin.Security.MicrosoftAccount.dll</HintPath>
+    <Reference Include="System.Web.Http.Owin">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Owin.5.2.3\lib\net45\System.Web.Http.Owin.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="App_Start\BundleConfig.cs" />
-    <Compile Include="App_Start\FilterConfig.cs" />
-    <Compile Include="App_Start\IdentityConfig.cs" />
-    <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="App_Start\Startup.Auth.cs" />
-    <Compile Include="Controllers\AccountController.cs" />
-    <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Framework\AppSettings.cs" />
+    <Compile Include="Framework\EmailService.cs" />
+    <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\MessageController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\AccountViewModels.cs" />
-    <Compile Include="Models\IdentityModels.cs" />
-    <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\Message.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Startup.cs" />
+    <Compile Include="App_Start\Startup.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\bootstrap.css" />
-    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="assets\css\app.css" />
+    <Content Include="assets\img\bg\peach-background-ground-back-16348.jpg" />
+    <Content Include="assets\img\logo\Logo_1578x334.jpg" />
+    <Content Include="assets\img\logo\Logo_236x50.jpg" />
+    <Content Include="assets\img\marker.png" />
+    <Content Include="assets\img\projects\wealth_1.png" />
+    <Content Include="assets\img\projects\wealth_2.png" />
+    <Content Include="assets\img\projects\wealth_3.png" />
+    <Content Include="assets\img\team\Holat.jpg" />
+    <Content Include="assets\img\team\Ozokur.jpg" />
+    <Content Include="assets\img\team\Sengelli.jpg" />
+    <Content Include="assets\img\team\Soylemez.jpg" />
+    <Content Include="assets\js\app.js" />
+    <Content Include="assets\js\forms\contact.js" />
+    <Content Include="assets\js\plugins\gmaps-ini.js" />
+    <Content Include="assets\js\plugins\owl-carousel2.js" />
+    <Content Include="assets\js\plugins\pace-loader.js" />
+    <Content Include="assets\js\plugins\promo.js" />
+    <Content Include="assets\plugins\back-to-top.js" />
+    <Content Include="assets\plugins\backstretch\jquery.backstretch.min.js" />
+    <Content Include="assets\plugins\bootstrap\css\bootstrap-rtl.min.css" />
+    <Content Include="assets\plugins\bootstrap\css\bootstrap-theme.css" />
+    <Content Include="assets\plugins\bootstrap\css\bootstrap-theme.min.css" />
+    <Content Include="assets\plugins\bootstrap\css\bootstrap.css" />
+    <Content Include="assets\plugins\bootstrap\css\bootstrap.min.css" />
+    <Content Include="assets\plugins\bootstrap\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="assets\plugins\bootstrap\js\bootstrap.js" />
+    <Content Include="assets\plugins\bootstrap\js\bootstrap.min.js" />
+    <Content Include="assets\plugins\bootstrap\js\npm.js" />
+    <Content Include="assets\plugins\font-awesome\4.2.0\css\font-awesome.css" />
+    <Content Include="assets\plugins\font-awesome\4.2.0\css\font-awesome.min.css" />
+    <Content Include="assets\plugins\font-awesome\4.2.0\fonts\fontawesome-webfont.svg" />
+    <Content Include="assets\plugins\font-awesome\css\font-awesome.css" />
+    <Content Include="assets\plugins\font-awesome\css\font-awesome.min.css" />
+    <Content Include="assets\plugins\font-awesome\fonts\fontawesome-webfont.svg" />
+    <Content Include="assets\plugins\jquery.easing.min.js" />
+    <Content Include="assets\plugins\jquery\jquery-migrate.js" />
+    <Content Include="assets\plugins\jquery\jquery-migrate.min.js" />
+    <Content Include="assets\plugins\jquery\jquery.js" />
+    <Content Include="assets\plugins\jquery\jquery.min.js" />
+    <Content Include="assets\plugins\modernizr.js" />
+    <Content Include="assets\plugins\owl-carousel2\assets\owl.carousel.css" />
+    <Content Include="assets\plugins\owl-carousel2\owl.carousel.js" />
+    <Content Include="assets\plugins\owl-carousel2\owl.carousel.min.js" />
+    <Content Include="assets\plugins\pace\pace-flash-rtl.css" />
+    <Content Include="assets\plugins\pace\pace-flash.css" />
+    <Content Include="assets\plugins\pace\pace.min.js" />
+    <Content Include="assets\plugins\shhos\shhos.css" />
+    <Content Include="assets\plugins\shhos\shhos.js" />
+    <Content Include="assets\plugins\sky-forms-pro\documentation\css\main.css" />
+    <Content Include="assets\plugins\sky-forms-pro\documentation\img\thumbnail.png" />
+    <Content Include="assets\plugins\sky-forms-pro\documentation\index.html" />
+    <Content Include="assets\plugins\sky-forms-pro\documentation\js\main.js" />
+    <Content Include="assets\plugins\sky-forms-pro\skyforms\captcha\button.png" />
+    <Content Include="assets\plugins\sky-forms-pro\skyforms\css\font-awesome.css" />
+    <Content Include="assets\plugins\sky-forms-pro\skyforms\css\sky-forms-ie8-rtl.css" />
+    <Content Include="assets\plugins\sky-forms-pro\skyforms\css\sky-forms-ie8.css" />
+    <Content Include="assets\plugins\sky-forms-pro\skyforms\css\sky-forms-rtl.css" />
+    <Content Include="assets\plugins\sky-forms-pro\skyforms\css\sky-forms.css" />
+    <Content Include="assets\plugins\sky-forms-pro\skyforms\custom\custom-sky-forms-rtl.css" />
+    <Content Include="assets\plugins\sky-forms-pro\skyforms\custom\custom-sky-forms-v2-rtl.css" />
+    <Content Include="assets\plugins\sky-forms-pro\skyforms\custom\custom-sky-forms-v2.css" />
+    <Content Include="assets\plugins\sky-forms-pro\skyforms\custom\custom-sky-forms.css" />
+    <Content Include="assets\plugins\sky-forms-pro\skyforms\icons\fontawesome-webfont.svg" />
+    <Content Include="assets\plugins\sky-forms-pro\skyforms\js\jquery-ui.min.js" />
+    <Content Include="assets\plugins\sky-forms-pro\skyforms\js\jquery.form.min.js" />
+    <Content Include="assets\plugins\sky-forms-pro\skyforms\js\jquery.maskedinput.min.js" />
+    <Content Include="assets\plugins\sky-forms-pro\skyforms\js\jquery.min.js" />
+    <Content Include="assets\plugins\sky-forms-pro\skyforms\js\jquery.modal.js" />
+    <Content Include="assets\plugins\sky-forms-pro\skyforms\js\jquery.placeholder.min.js" />
+    <Content Include="assets\plugins\sky-forms-pro\skyforms\js\jquery.validate.min.js" />
+    <Content Include="assets\plugins\sky-forms-pro\skyforms\js\sky-forms-ie8.js" />
+    <Content Include="assets\plugins\smoothScroll.js" />
+    <None Include="Configs\Setup\0 Readme.txt" />
+    <Content Include="default.aspx" />
     <Content Include="favicon.ico" />
-    <Content Include="fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="Global.asax" />
-    <Content Include="Content\Site.css" />
-    <Content Include="Scripts\bootstrap.js" />
-    <Content Include="Scripts\bootstrap.min.js" />
-    <None Include="Properties\PublishProfiles\SmarterASP.NET.pubxml" />
-    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
-    <Content Include="Scripts\jquery-1.10.2.js" />
-    <Content Include="Scripts\jquery-1.10.2.min.js" />
-    <None Include="Scripts\jquery.validate-vsdoc.js" />
-    <Content Include="Scripts\jquery.validate.js" />
-    <Content Include="Scripts\jquery.validate.min.js" />
-    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
-    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
-    <Content Include="Scripts\modernizr-2.6.2.js" />
-    <Content Include="Scripts\respond.js" />
-    <Content Include="Scripts\respond.min.js" />
-    <Content Include="Scripts\_references.js" />
-    <Content Include="Web.config" />
-    <Content Include="Web.Debug.config">
+    <None Include="Global.asax" />
+    <None Include="Properties\PublishProfiles\forcrowd.org.pubxml" />
+    <None Include="Web.config" />
+    <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
-    </Content>
-    <Content Include="Web.Release.config">
+    </None>
+    <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
-    </Content>
-    <Content Include="Views\Web.config" />
-    <Content Include="Views\_ViewStart.cshtml" />
-    <Content Include="Views\Shared\Error.cshtml" />
-    <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\About.cshtml" />
-    <Content Include="Views\Home\Contact.cshtml" />
-    <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Scripts\jquery-1.10.2.min.map" />
-    <Content Include="Views\Account\_ExternalLoginsListPartial.cshtml" />
-    <Content Include="Views\Account\ConfirmEmail.cshtml" />
-    <Content Include="Views\Account\ExternalLoginConfirmation.cshtml" />
-    <Content Include="Views\Account\ExternalLoginFailure.cshtml" />
-    <Content Include="Views\Account\ForgotPassword.cshtml" />
-    <Content Include="Views\Account\ForgotPasswordConfirmation.cshtml" />
-    <Content Include="Views\Account\Login.cshtml" />
-    <Content Include="Views\Account\Register.cshtml" />
-    <Content Include="Views\Account\ResetPassword.cshtml" />
-    <Content Include="Views\Account\ResetPasswordConfirmation.cshtml" />
-    <Content Include="Views\Account\SendCode.cshtml" />
-    <Content Include="Views\Account\VerifyCode.cshtml" />
-    <Content Include="Views\Manage\AddPhoneNumber.cshtml" />
-    <Content Include="Views\Manage\ChangePassword.cshtml" />
-    <Content Include="Views\Manage\Index.cshtml" />
-    <Content Include="Views\Manage\ManageLogins.cshtml" />
-    <Content Include="Views\Manage\SetPassword.cshtml" />
-    <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
-    <Content Include="Views\Shared\Lockout.cshtml" />
-    <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Configs\system.net.mailSettings.smtp.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\img\bg\Peach, background, ground, back.url" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\plugins\bootstrap\css\bootstrap-theme.css.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\plugins\bootstrap\css\bootstrap.css.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\plugins\bootstrap\fonts\glyphicons-halflings-regular.eot" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\plugins\bootstrap\fonts\glyphicons-halflings-regular.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\plugins\bootstrap\fonts\glyphicons-halflings-regular.woff" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\plugins\bootstrap\fonts\glyphicons-halflings-regular.woff2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\plugins\font-awesome\4.2.0\fonts\fontawesome-webfont.eot" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\plugins\font-awesome\4.2.0\fonts\fontawesome-webfont.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\plugins\font-awesome\4.2.0\fonts\fontawesome-webfont.woff" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\plugins\font-awesome\4.2.0\fonts\FontAwesome.otf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\plugins\font-awesome\4.2.0\less\bordered-pulled.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\plugins\font-awesome\4.2.0\less\core.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\plugins\font-awesome\4.2.0\less\fixed-width.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\plugins\font-awesome\4.2.0\less\font-awesome.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\plugins\font-awesome\4.2.0\less\icons.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\plugins\font-awesome\4.2.0\less\larger.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\plugins\font-awesome\4.2.0\less\list.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\plugins\font-awesome\4.2.0\less\mixins.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\plugins\font-awesome\4.2.0\less\path.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\plugins\font-awesome\4.2.0\less\rotated-flipped.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\plugins\font-awesome\4.2.0\less\spinning.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\plugins\font-awesome\4.2.0\less\stacked.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\plugins\font-awesome\4.2.0\less\variables.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\plugins\font-awesome\4.2.0\scss\_bordered-pulled.scss" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\plugins\font-awesome\4.2.0\scss\_core.scss" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\plugins\font-awesome\4.2.0\scss\_fixed-width.scss" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\plugins\font-awesome\4.2.0\scss\_icons.scss" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\plugins\font-awesome\4.2.0\scss\_larger.scss" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\plugins\font-awesome\4.2.0\scss\_list.scss" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\plugins\font-awesome\4.2.0\scss\_mixins.scss" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\plugins\font-awesome\4.2.0\scss\_path.scss" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\plugins\font-awesome\4.2.0\scss\_rotated-flipped.scss" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\plugins\font-awesome\4.2.0\scss\_spinning.scss" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\plugins\font-awesome\4.2.0\scss\_stacked.scss" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\plugins\font-awesome\4.2.0\scss\_variables.scss" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\plugins\font-awesome\4.2.0\scss\font-awesome.scss" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\plugins\font-awesome\fonts\fontawesome-webfont.eot" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\plugins\font-awesome\fonts\fontawesome-webfont.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\plugins\font-awesome\fonts\fontawesome-webfont.woff" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\plugins\font-awesome\fonts\fontawesome-webfont.woff2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\plugins\font-awesome\fonts\FontAwesome.otf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\plugins\font-awesome\less\animated.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\plugins\font-awesome\less\bordered-pulled.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\plugins\font-awesome\less\core.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\plugins\font-awesome\less\fixed-width.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\plugins\font-awesome\less\font-awesome.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\plugins\font-awesome\less\icons.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\plugins\font-awesome\less\larger.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\plugins\font-awesome\less\list.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\plugins\font-awesome\less\mixins.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\plugins\font-awesome\less\path.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\plugins\font-awesome\less\rotated-flipped.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\plugins\font-awesome\less\stacked.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\plugins\font-awesome\less\variables.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\plugins\font-awesome\scss\_animated.scss" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\plugins\font-awesome\scss\_bordered-pulled.scss" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\plugins\font-awesome\scss\_core.scss" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\plugins\font-awesome\scss\_fixed-width.scss" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\plugins\font-awesome\scss\_icons.scss" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\plugins\font-awesome\scss\_larger.scss" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\plugins\font-awesome\scss\_list.scss" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\plugins\font-awesome\scss\_mixins.scss" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\plugins\font-awesome\scss\_path.scss" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\plugins\font-awesome\scss\_rotated-flipped.scss" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\plugins\font-awesome\scss\_stacked.scss" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\plugins\font-awesome\scss\_variables.scss" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\plugins\font-awesome\scss\font-awesome.scss" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\plugins\jquery\jquery.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\plugins\pace\pace-flash.css~b174c448b62593143970c5138b825bef608b62f3" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\plugins\pace\pace.min.js~b174c448b62593143970c5138b825bef608b62f3" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\plugins\sky-forms-pro\skyforms\captcha\font\anorexia.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\plugins\sky-forms-pro\skyforms\captcha\image.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\plugins\sky-forms-pro\skyforms\captcha\process.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\plugins\sky-forms-pro\skyforms\demo-comment-process.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\plugins\sky-forms-pro\skyforms\demo-comment.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\plugins\sky-forms-pro\skyforms\demo-contacts-process.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\plugins\sky-forms-pro\skyforms\demo-contacts.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\plugins\sky-forms-pro\skyforms\demo-login-process.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\plugins\sky-forms-pro\skyforms\demo-order-process.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\plugins\sky-forms-pro\skyforms\demo-review-process.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\plugins\sky-forms-pro\skyforms\ext-captcha.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\plugins\sky-forms-pro\skyforms\icons\fontawesome-webfont.eot" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\plugins\sky-forms-pro\skyforms\icons\fontawesome-webfont.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\plugins\sky-forms-pro\skyforms\icons\fontawesome-webfont.woff" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\plugins\sky-forms-pro\skyforms\icons\FontAwesome.otf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Configs\appSettings.config" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Content Include="fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="fonts\glyphicons-halflings-regular.eot" />
-    <None Include="packages.config" />
+    <None Include="Configs\Setup\appSettings.config" />
+    <None Include="Configs\Setup\system.net.mailSettings.smtp.config" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -250,11 +496,11 @@
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
-          <UseIIS>False</UseIIS>
+          <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>64611</DevelopmentServerPort>
+          <DevelopmentServerPort>63212</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:64611/</IISUrl>
+          <IISUrl>http://localhost:63212/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
@@ -264,10 +510,24 @@
       </FlavorProperties>
     </VisualStudio>
   </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.2.2\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.2.2\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.1\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.1\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.
-  <Target Name="BeforeBuild">
-  </Target>
   <Target Name="AfterBuild">
   </Target> -->
+  <Target Name="BeforeBuild">
+    <CreateItem Include="$(ProjectDir)Configs\*.config">
+      <Output TaskParameter="Include" ItemName="ExistingFiles" />
+    </CreateItem>
+    <CreateItem Include="$(ProjectDir)Configs\Setup\*.config" Exclude="@(ExistingFiles -> '$(ProjectDir)Configs\Setup\%(FileName)%(Extension)')">
+      <Output TaskParameter="Include" ItemName="NewFiles" />
+    </CreateItem>
+    <Copy SourceFiles="@(NewFiles)" DestinationFolder="$(ProjectDir)Configs" />
+  </Target>
 </Project>

@@ -1,6 +1,6 @@
-# forCrowd.org
+# forCrowd Website
 
-Main website for forCrowd Foundation
+forCrowd Foundation Website
 
 ---
 

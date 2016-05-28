@@ -1,5 +1,10 @@
 ### Changelog
 
+**1.0.0**
+
+New boostrap template from Unify template pack:
+http://wrapbootstrap.com/preview/WB0412697
+
 **0.2.0**
 
 Content updates
