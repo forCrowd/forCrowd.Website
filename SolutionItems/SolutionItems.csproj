@@ -52,14 +52,13 @@
       <Link>Documents\README.md</Link>
     </None>
     <None Include="Documents\Todo.md" />
-    <None Include="Images\Logo\forCrowd Logo.cdr" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Images\Logo\Details.txt" />
-    <Content Include="Images\Team\FatihSoylemez.jpg" />
-    <Content Include="Images\Team\OzgurSengelli.jpg" />
-    <Content Include="Images\Team\SencerOzokur - Copy.jpg" />
-    <Content Include="Images\Team\SerkanHolat.jpg" />
+    <Content Include="Images\FatihSoylemez.jpg" />
+    <Content Include="Images\OzgurSengelli.jpg" />
+    <Content Include="Images\SencerOzokur.jpg" />
+    <Content Include="Images\SerkanHolat_New.jpg" />
+    <Content Include="Images\SerkanHolat_Old.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
