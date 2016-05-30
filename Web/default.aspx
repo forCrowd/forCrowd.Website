@@ -485,7 +485,9 @@
     <script src="assets/js/plugins/owl-carousel2.js"></script>
     <script src="assets/js/plugins/pace-loader.js"></script>
     <script src="assets/js/plugins/promo.js"></script>
+
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVmI_x-nhm_-JYCT61JsWi-JH2ncjOQoM&callback=initMap" async="async" defer="defer" type="text/javascript"></script>
+
     <script>
         $(function () {
             App.init();
