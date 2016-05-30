@@ -1,4 +1,0 @@
-Font: Century Gothic
-forCrowd color: #b08b5f;
-FOUNDATION black color: #2B2A28;
-FOUNDATION white color: #FBF9FA;

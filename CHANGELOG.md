@@ -1,5 +1,10 @@
 ### Changelog
 
+**1.0.2**
+
+google maps init update
+Minor content update
+
 **1.0.1**
 
 backstretch background color update

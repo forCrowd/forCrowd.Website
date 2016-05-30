@@ -67,7 +67,7 @@
                             <a href="#about">About</a>
                         </li>
                         <li class="page-scroll">
-                            <a href="#projects">Projects</a>
+                            <a href="#projects">Project</a>
                         </li>
                         <li class="page-scroll">
                             <a href="#invest">Invest</a>
@@ -119,20 +119,24 @@
                         While technology keeps reducing the cost of organizing the individuals, new patterns are getting revealed.
                     </p>
                     <p>
-                        "Self-interest" mentality by one man's investment is being replaced with "society's best interest" when the investment gathered by many.
+                        "Self-interest" mentality by one man's investment is being replaced with "society's best interest"
+                        when the investment gathered by many.
                     </p>
                     <p>
-                        This is going to be a long process, however lot of potential lies beneath this shift, and we know what the future holds; <strong>crowd is the new boss</strong>.
+                        This is going to be a long process, however huge potential lies beneath this shift, and we know what the future holds;
+                        <strong>crowd is the new boss</strong>.
                     </p>
 
                     <hr class="devider devider-dashed" />
 
                     <p>forCrowd Foundation is a <strong>for-benefit</strong> organization.</p>
                     <p>
-                        We aim to provide the most benefit to you by, focusing social issues, removing the profit from the equation, sharing our knowledge and being transparent.
+                        We aim to provide the most benefit to society by, focusing social issues, sharing our knowledge,
+                        removing the profit from the equation and being transparent.
                     </p>
                     <p>
-                        Our vision is to create crowd financed applications that can be easily replicable by any other organization, to make you independent. We believe this is the ultimate level in the competition.
+                        Our vision is to make you independent, by creating applications that any other organization can replicate.
+                        We believe this is the ultimate level in the competition.
                     </p>
                     <p>
                         In other words, the deal is; we are the employees, you are the boss.
@@ -155,7 +159,8 @@
                             <div class="icon-md-text">
                                 <h4>SOCIAL ISSUES</h4>
                                 <p>
-                                    We are interested in solving social issues. Creating such applications will be high priority for us.
+                                    Our goal is to contribute to well-being of society.<br />
+                                    Creating applications that aim to solve social issues will be high priority for us.
                                 </p>
                             </div>
                         </div>
@@ -166,6 +171,7 @@
                             <div class="icon-md-text">
                                 <h4>OPEN SOURCE</h4>
                                 <p>
+                                    Open source is the key to knowledge independence.<br />
                                     We promise you to share source code of our applications by using open source licenses.
                                 </p>
                             </div>
@@ -177,7 +183,8 @@
                             <div class="icon-md-text">
                                 <h4>NONPROFIT</h4>
                                 <p>
-                                    Our focus is to seek public interest. As long as we can cover our expenses, we will keep serving to you.
+                                    Our primary focus is to seek public interest.<br />
+                                    As long as we can cover our expenses, we will be at your service.
                                 </p>
                             </div>
                         </div>
@@ -188,7 +195,8 @@
                             <div class="icon-md-text">
                                 <h4>TRANSPARENT</h4>
                                 <p>
-                                    We believe transparency helps to society. We aim to be as open as posibble, both financially and in our decisions.
+                                    We believe transparency is crucial for a healthy society.<br />
+                                    We aim to be as open as possible, both financially and in decisions-making.
                                 </p>
                             </div>
                         </div>
@@ -202,11 +210,11 @@
         <div class="container-fluid">
             <div class="container">
                 <div class="g-heading text-center">
-                    <h2><strong>PROJECTS</strong></h2>
+                    <h2><strong>PROJECT</strong></h2>
                 </div>
                 <div class="row g-mb-30">
                     <div class="col-sm-8 col-sm-offset-2">
-                        Wealth Economy is a research and development project that have experimental ideas and appliations about improving how the current economy works.
+                        Wealth Economy is a research and development project that have experimental ideas and applications about improving how the current economy works.
                     </div>
                 </div>
 
@@ -223,14 +231,14 @@
                         <div class="item">
                             <img src="assets/img/projects/wealth_2.png" alt="Wealth Economy Screenshot 2" width="600" height="360" />
                             <p class="owl-p">
-                                How to create a sustainable income for knowledge sharing, like developing software with open source licenses?
+                                How to create a sustainable income for organizations that share their knowledge, like creating a software with an open source license?
                             </p>
                             <a href="https://wealth.forcrowd.org" target="_blank" class="owl-a">View Project</a>
                         </div>
                         <div class="item">
                             <img src="assets/img/projects/wealth_3.png" alt="Wealth Economy Screenshot 3" width="600" height="360" />
                             <p class="owl-p">
-                                Why nonprofit organizations systematically gets less income and how to reverse this?
+                                Is it possible to create a new system that distributes our resources to organization based on their overall benefits to society?
                             </p>
                             <a href="https://wealth.forcrowd.org" target="_blank" class="owl-a">View Project</a>
                         </div>
@@ -250,13 +258,13 @@
                 <!-- Left Part -->
                 <div class="col-xs-6 col-2xs-12 g-2xs-mb-30 g-mb-40">
                     <p>
-                        We are a brand new organization with lot of interesting ideas.
+                        We are a brand new organization with a lot of ideas.
                     </p>
                     <p>
-                        In all our projects, we will calculate the inital and running costs and try to divide the amount within our supporters.
+                        In all our projects, we will calculate the initial and running costs and try to divide the amount within our supporters.
                     </p>
                     <p>
-                        By using this approach, we believe we can create many useful crowd financed applications.
+                        By using this approach, we believe we can create many interesting crowd financed applications.
                     </p>
                 </div>
                 <!-- /Left Part -->
@@ -323,7 +331,7 @@
                 <div class="col-md-3 col-sm-6 col-xs-6 col-2xs-12">
                     <div class="crew-member g-mb-50">
                         <div class="crew-member-wrapper g-mb-40">
-                            <img src="assets/img/team/Holat.jpg" alt="" />
+                            <img src="assets/img/team/SerkanHolat.jpg" alt="" />
                             <div>
                                 <ul class="g-social-icons-v2">
                                     <li><a href="https://twitter.com/coni2k" target="_blank"><i class="fa fa-twitter"></i></a></li>
@@ -341,7 +349,7 @@
                 <div class="col-md-3 col-sm-6 col-xs-6 col-2xs-12">
                     <div class="crew-member g-mb-50">
                         <div class="crew-member-wrapper g-mb-40">
-                            <img src="assets/img/team/Sengelli.jpg" alt="" />
+                            <img src="assets/img/team/OzgurSengelli.jpg" alt="" />
                             <div>
                                 <ul class="g-social-icons-v2">
                                     <li><a href="https://www.behance.net/ozgursengelli" target="_blank"><i class="fa fa-behance"></i></a></li>
@@ -359,7 +367,7 @@
                 <div class="col-md-3 col-sm-6 col-xs-6 col-2xs-12">
                     <div class="crew-member g-mb-50">
                         <div class="crew-member-wrapper g-mb-40">
-                            <img src="assets/img/team/Soylemez.jpg" alt="" />
+                            <img src="assets/img/team/FatihSoylemez.jpg" alt="" />
                             <div>
                                 <ul class="g-social-icons-v2">
                                     <li><a href="https://twitter.com/fthsylmz" target="_blank"><i class="fa fa-twitter"></i></a></li>
@@ -377,7 +385,7 @@
                 <div class="col-md-3 col-sm-6 col-xs-6 col-2xs-12">
                     <div class="crew-member g-mb-50">
                         <div class="crew-member-wrapper g-mb-40">
-                            <img src="assets/img/team/Ozokur.jpg" alt="" />
+                            <img src="assets/img/team/SencerOzokur.jpg" alt="" />
                             <div>
                                 <ul class="g-social-icons-v2">
                                     <li><a href="https://twitter.com/sencerozokur" target="_blank"><i class="fa fa-twitter"></i></a></li>
@@ -426,7 +434,7 @@
                 <!-- Ask Block -->
                 <div class="col-md-4 col-sm-6 contact-col contact-content">
                     <div class="g-heading v2 text-center">
-                        <h2><strong>HAVE A </strong> QUESTION?</h2>
+                        <h2><strong>HAVE A </strong>QUESTION?</h2>
                     </div>
                     <form action="/api/message" class="sky-form" method="post" id="sky-form3">
                         <fieldset>
@@ -468,16 +476,17 @@
     <script src="assets/plugins/sky-forms-pro/skyforms/js/jquery.validate.min.js"></script>
     <script src="assets/plugins/modernizr.js"></script>
     <script src="assets/plugins/backstretch/jquery.backstretch.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVmI_x-nhm_-JYCT61JsWi-JH2ncjOQoM&callback=initMap" async="async" defer="defer" type="text/javascript"></script>
     <script src="assets/plugins/shhos/shhos.js"></script>
     <script src="assets/plugins/back-to-top.js"></script>
-    <script src="assets/js/plugins/gmaps-ini.js"></script>
     <!-- JS Page Level-->
     <script src="assets/js/app.js"></script>
-    <script src="assets/js/plugins/pace-loader.js"></script>
-    <script src="assets/js/plugins/owl-carousel2.js"></script>
-    <script src="assets/js/plugins/promo.js"></script>
     <script src="assets/js/forms/contact.js"></script>
+    <script src="assets/js/plugins/gmaps-ini.js"></script>
+    <script src="assets/js/plugins/owl-carousel2.js"></script>
+    <script src="assets/js/plugins/pace-loader.js"></script>
+    <script src="assets/js/plugins/promo.js"></script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVmI_x-nhm_-JYCT61JsWi-JH2ncjOQoM&callback=initMap" async="async" defer="defer" type="text/javascript"></script>
     <script>
         $(function () {
             App.init();
