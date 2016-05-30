@@ -353,7 +353,6 @@
                             <div>
                                 <ul class="g-social-icons-v2">
                                     <li><a href="https://www.behance.net/ozgursengelli" target="_blank"><i class="fa fa-behance"></i></a></li>
-                                    <li><a href="https://tr.linkedin.com/in/ozgur-sengelli-8573971" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                                 </ul>
                             </div>
                         </div>
