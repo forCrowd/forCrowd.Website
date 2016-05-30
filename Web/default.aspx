@@ -323,7 +323,7 @@
                 <div class="col-md-3 col-sm-6 col-xs-6 col-2xs-12">
                     <div class="crew-member g-mb-50">
                         <div class="crew-member-wrapper g-mb-40">
-                            <img src="assets/img/team/Holat.jpg" alt="" />
+                            <img src="assets/img/team/SerkanHolat.jpg" alt="" />
                             <div>
                                 <ul class="g-social-icons-v2">
                                     <li><a href="https://twitter.com/coni2k" target="_blank"><i class="fa fa-twitter"></i></a></li>
@@ -341,7 +341,7 @@
                 <div class="col-md-3 col-sm-6 col-xs-6 col-2xs-12">
                     <div class="crew-member g-mb-50">
                         <div class="crew-member-wrapper g-mb-40">
-                            <img src="assets/img/team/Sengelli.jpg" alt="" />
+                            <img src="assets/img/team/OzgurSengelli.jpg" alt="" />
                             <div>
                                 <ul class="g-social-icons-v2">
                                     <li><a href="https://www.behance.net/ozgursengelli" target="_blank"><i class="fa fa-behance"></i></a></li>
@@ -359,7 +359,7 @@
                 <div class="col-md-3 col-sm-6 col-xs-6 col-2xs-12">
                     <div class="crew-member g-mb-50">
                         <div class="crew-member-wrapper g-mb-40">
-                            <img src="assets/img/team/Soylemez.jpg" alt="" />
+                            <img src="assets/img/team/FatihSoylemez.jpg" alt="" />
                             <div>
                                 <ul class="g-social-icons-v2">
                                     <li><a href="https://twitter.com/fthsylmz" target="_blank"><i class="fa fa-twitter"></i></a></li>
@@ -377,7 +377,7 @@
                 <div class="col-md-3 col-sm-6 col-xs-6 col-2xs-12">
                     <div class="crew-member g-mb-50">
                         <div class="crew-member-wrapper g-mb-40">
-                            <img src="assets/img/team/Ozokur.jpg" alt="" />
+                            <img src="assets/img/team/SencerOzokur.jpg" alt="" />
                             <div>
                                 <ul class="g-social-icons-v2">
                                     <li><a href="https://twitter.com/sencerozokur" target="_blank"><i class="fa fa-twitter"></i></a></li>
@@ -468,16 +468,17 @@
     <script src="assets/plugins/sky-forms-pro/skyforms/js/jquery.validate.min.js"></script>
     <script src="assets/plugins/modernizr.js"></script>
     <script src="assets/plugins/backstretch/jquery.backstretch.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVmI_x-nhm_-JYCT61JsWi-JH2ncjOQoM&callback=initMap" async="async" defer="defer" type="text/javascript"></script>
     <script src="assets/plugins/shhos/shhos.js"></script>
     <script src="assets/plugins/back-to-top.js"></script>
-    <script src="assets/js/plugins/gmaps-ini.js"></script>
     <!-- JS Page Level-->
     <script src="assets/js/app.js"></script>
-    <script src="assets/js/plugins/pace-loader.js"></script>
-    <script src="assets/js/plugins/owl-carousel2.js"></script>
-    <script src="assets/js/plugins/promo.js"></script>
     <script src="assets/js/forms/contact.js"></script>
+    <script src="assets/js/plugins/gmaps-ini.js"></script>
+    <script src="assets/js/plugins/owl-carousel2.js"></script>
+    <script src="assets/js/plugins/pace-loader.js"></script>
+    <script src="assets/js/plugins/promo.js"></script>
+    
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVmI_x-nhm_-JYCT61JsWi-JH2ncjOQoM&callback=initMap" async="async" defer="defer" type="text/javascript"></script>
     <script>
         $(function () {
             App.init();

@@ -126,16 +126,15 @@
   <ItemGroup>
     <Content Include="assets\css\app.css" />
     <Content Include="assets\img\bg\peach-background-ground-back-16348.jpg" />
-    <Content Include="assets\img\logo\Logo_1578x334.jpg" />
     <Content Include="assets\img\logo\Logo_236x50.jpg" />
     <Content Include="assets\img\marker.png" />
     <Content Include="assets\img\projects\wealth_1.png" />
     <Content Include="assets\img\projects\wealth_2.png" />
     <Content Include="assets\img\projects\wealth_3.png" />
-    <Content Include="assets\img\team\Holat.jpg" />
-    <Content Include="assets\img\team\Ozokur.jpg" />
-    <Content Include="assets\img\team\Sengelli.jpg" />
-    <Content Include="assets\img\team\Soylemez.jpg" />
+    <Content Include="assets\img\team\SencerOzokur.jpg" />
+    <Content Include="assets\img\team\OzgurSengelli.jpg" />
+    <Content Include="assets\img\team\FatihSoylemez.jpg" />
+    <Content Include="assets\img\team\SerkanHolat.jpg" />
     <Content Include="assets\js\app.js" />
     <Content Include="assets\js\forms\contact.js" />
     <Content Include="assets\js\plugins\gmaps-ini.js" />
