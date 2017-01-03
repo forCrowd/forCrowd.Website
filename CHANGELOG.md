@@ -1,23 +1,28 @@
 ### Changelog
 
+**1.0.3**
+
+* KvK & BTW numbers
+* Minor styling
+
 **1.0.2**
 
-google maps init update
-Minor content update
+* google maps init update
+* Minor content update
 
 **1.0.1**
 
-backstretch background color update
+* backstretch background color update
 
 **1.0.0**
 
-New boostrap template from Unify template pack:
+* New boostrap template from Unify template pack:
 http://wrapbootstrap.com/preview/WB0412697
 
 **0.2.0**
 
-Content updates
+* Content updates
 
 **0.1.0**
 
-Initial version
+* Initial version

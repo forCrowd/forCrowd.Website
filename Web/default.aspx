@@ -27,7 +27,7 @@
     <link rel="stylesheet" href="assets/plugins/pace/pace-flash.css" />
 
     <!-- CSS Theme -->
-    <link rel="stylesheet" href="assets/css/app.css" />
+    <link rel="stylesheet" href="assets/css/app.css?v=1.0.3" />
 
     <script>
         (function (i, s, o, g, r, a, m) {
@@ -410,7 +410,7 @@
                     <div class="g-heading v2 text-center">
                         <h2><strong>GET IN TOUCH</strong></h2>
                     </div>
-                    <p class="contact-info">
+                    <p class="contact-info g-mb-30">
                         So, what do you think boss?
                     </p>
                     <ul class="list-unstyled address">
@@ -422,6 +422,10 @@
                         <li><a href="https://github.com/forCrowd" target="_blank"><i class="fa fa-github"></i></a></li>
                         <li><a href="https://medium.com/@forCrowd" target="_blank"><i class="fa fa-medium"></i></a></li>
                         <li><a href="https://www.linkedin.com/company/forcrowd" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                    <ul class="list-unstyled address">
+                        <li>coc (kvk): <strong>63164647</strong></li>
+                        <li>vat (btw): <strong>855120010</strong></li>
                     </ul>
                 </div>
                 <!-- /Contacts -->

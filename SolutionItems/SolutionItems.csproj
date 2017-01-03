@@ -51,7 +51,6 @@
     <None Include="..\README.md">
       <Link>Documents\README.md</Link>
     </None>
-    <None Include="Documents\Todo.md" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Images\FatihSoylemez.jpg" />
