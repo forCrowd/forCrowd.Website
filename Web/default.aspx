@@ -425,7 +425,6 @@
                     </ul>
                     <ul class="list-unstyled address">
                         <li>coc (kvk): <strong>63164647</strong></li>
-                        <li>vat (btw): <strong>855120010</strong></li>
                     </ul>
                 </div>
                 <!-- /Contacts -->

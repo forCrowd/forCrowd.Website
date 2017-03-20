@@ -1,5 +1,9 @@
 ### Changelog
 
+**1.0.4**
+
+* BTW (RSIN) number was removed
+
 **1.0.3**
 
 * KvK & BTW numbers
