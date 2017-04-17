@@ -34,7 +34,7 @@
             i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
                 (i[r].q = i[r].q || []).push(arguments)
             }, i[r].l = 1 * new Date(); a = s.createElement(o),
-            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
         })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
         ga('create', 'UA-62498767-3', 'auto');
@@ -140,15 +140,13 @@
                     </p>
                     <p>
                         In other words, the deal is; we are the employees, you are the boss.
-                        We work for you and solve the issues, you pay the salaries.
+                        We work for you and provide the solutions, you take care of the expenses.
                     </p>
-
-                    <hr class="devider devider-dashed" />
-
+                    <%--                <hr class="devider devider-dashed" />
                     <p>
                         However, in today's system, being a for-benefit organization is not a financially wise decision.
                         And that is exactly what we study in our first project.
-                    </p>
+                    </p>--%>
                 </div>
                 <div class="col-sm-6 g-mb-40 g-pl-30">
                     <div class="row">
@@ -210,37 +208,29 @@
         <div class="container-fluid">
             <div class="container">
                 <div class="g-heading text-center">
-                    <h2><strong>PROJECT</strong></h2>
-                </div>
-                <div class="row g-mb-30">
-                    <div class="col-sm-8 col-sm-offset-2">
-                        Wealth Economy is a research and development project that have experimental ideas and applications about improving how the current economy works.
-                    </div>
+                    <h2><strong>PROJECTS</strong></h2>
                 </div>
 
                 <!-- Owl Carousel v4 we create amazing things-->
                 <div class="owl-carousel-v4 owl-theme">
                     <div class="owl-slider-v4">
                         <div class="item">
-                            <img src="assets/img/projects/wealth_1.png" alt="Wealth Economy Screenshot 1" width="600" height="360" />
+                            <h3>Wealth Economy
+                            </h3>
+                            <img src="assets/img/projects/wealth-economy.png" alt="Wealth Economy Screenshot" width="600" height="360" />
                             <p class="owl-p">
-                                Why does the society can't allocate more resources to more important issues?
+                                Experimental ideas on improving how the economy works.
                             </p>
                             <a href="https://wealth.forcrowd.org" target="_blank" class="owl-a">View Project</a>
                         </div>
                         <div class="item">
-                            <img src="assets/img/projects/wealth_2.png" alt="Wealth Economy Screenshot 2" width="600" height="360" />
+                            <h3>Global Goals Fund
+                            </h3>
+                            <img src="assets/img/projects/global-goals-fund.png" alt="Global Goals Fund Screenshot" width="600" height="360" />
                             <p class="owl-p">
-                                How to create a sustainable income for organizations that share their knowledge, like creating a software with an open source license?
+                                The prototype of our project that we presented at United Nation's Connect2Effect Hackathon.
                             </p>
-                            <a href="https://wealth.forcrowd.org" target="_blank" class="owl-a">View Project</a>
-                        </div>
-                        <div class="item">
-                            <img src="assets/img/projects/wealth_3.png" alt="Wealth Economy Screenshot 3" width="600" height="360" />
-                            <p class="owl-p">
-                                Is it possible to create a new system that distributes our resources to organization based on their overall benefits to society?
-                            </p>
-                            <a href="https://wealth.forcrowd.org" target="_blank" class="owl-a">View Project</a>
+                            <a href="http://globalgoalsfund.forcrowd.org" target="_blank" class="owl-a">View Project</a>
                         </div>
                     </div>
                 </div>
@@ -328,7 +318,7 @@
         <div class="container crew-members">
             <div class="row">
                 <!-- Col -->
-                <div class="col-md-3 col-sm-6 col-xs-6 col-2xs-12">
+                <div class="col-md-4 col-sm-6 col-xs-6 col-2xs-12">
                     <div class="crew-member g-mb-50">
                         <div class="crew-member-wrapper g-mb-40">
                             <img src="assets/img/team/SerkanHolat.jpg" alt="" />
@@ -346,7 +336,7 @@
                 </div>
                 <!-- /Col -->
                 <!-- Col -->
-                <div class="col-md-3 col-sm-6 col-xs-6 col-2xs-12">
+                <div class="col-md-4 col-sm-6 col-xs-6 col-2xs-12">
                     <div class="crew-member g-mb-50">
                         <div class="crew-member-wrapper g-mb-40">
                             <img src="assets/img/team/OzgurSengelli.jpg" alt="" />
@@ -363,7 +353,7 @@
                 </div>
                 <!-- /Col -->
                 <!-- Col -->
-                <div class="col-md-3 col-sm-6 col-xs-6 col-2xs-12">
+                <div class="col-md-4 col-sm-6 col-xs-6 col-2xs-12">
                     <div class="crew-member g-mb-50">
                         <div class="crew-member-wrapper g-mb-40">
                             <img src="assets/img/team/FatihSoylemez.jpg" alt="" />
@@ -381,7 +371,7 @@
                 </div>
                 <!-- /Col -->
                 <!-- Col -->
-                <div class="col-md-3 col-sm-6 col-xs-6 col-2xs-12">
+<%--                <div class="col-md-3 col-sm-6 col-xs-6 col-2xs-12">
                     <div class="crew-member g-mb-50">
                         <div class="crew-member-wrapper g-mb-40">
                             <img src="assets/img/team/SencerOzokur.jpg" alt="" />
@@ -396,7 +386,7 @@
                         <strong class="crew__name">SENCER OZOKUR</strong>
                         <span class="crew__position">steepLe</span>
                     </div>
-                </div>
+                </div>--%>
                 <!-- /Col -->
             </div>
         </div>
@@ -416,15 +406,13 @@
                     <ul class="list-unstyled address">
                         <li>email: <strong><a href="mailto:contact@forcrowd.org" target="_blank">contact@forcrowd.org</a></strong></li>
                         <li>made in: <strong>Amsterdam / Netherlands</strong></li>
+                        <li>kvk: <strong>63164647</strong></li>
                     </ul>
                     <ul class="g-social-icons-v2 g-mb-30">
                         <li><a href="https://twitter.com/forCrowd" target="_blank"><i class="fa fa-twitter"></i></a></li>
                         <li><a href="https://github.com/forCrowd" target="_blank"><i class="fa fa-github"></i></a></li>
                         <li><a href="https://medium.com/@forCrowd" target="_blank"><i class="fa fa-medium"></i></a></li>
                         <li><a href="https://www.linkedin.com/company/forcrowd" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                    </ul>
-                    <ul class="list-unstyled address">
-                        <li>coc (kvk): <strong>63164647</strong></li>
                     </ul>
                 </div>
                 <!-- /Contacts -->

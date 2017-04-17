@@ -1,5 +1,10 @@
 ### Changelog
 
+**1.0.5**
+
+* Global Goals Fund was added
+* Minor
+
 **1.0.4**
 
 * BTW (RSIN) number was removed
