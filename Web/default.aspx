@@ -219,7 +219,7 @@
                             </h3>
                             <img src="assets/img/projects/wealth-economy.png" alt="Wealth Economy Screenshot" width="600" height="360" />
                             <p class="owl-p">
-                                Experimental ideas on improving how the economy works.
+                                Experimental ideas on increasing sustainability and productivity.
                             </p>
                             <a href="https://wealth.forcrowd.org" target="_blank" class="owl-a">View Project</a>
                         </div>

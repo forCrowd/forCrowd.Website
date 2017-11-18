@@ -1,5 +1,9 @@
 ### Changelog
 
+**1.0.6**
+
+* Minor
+
 **1.0.5**
 
 * Global Goals Fund was added
