@@ -1,5 +1,9 @@
 ### Changelog
 
+**1.0.7**
+
+* web.config - HTTPS rule
+
 **1.0.6**
 
 * Minor
