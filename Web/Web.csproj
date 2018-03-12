@@ -129,6 +129,7 @@
     <Content Include="assets\img\bg\peach-background-ground-back-16348.jpg" />
     <Content Include="assets\img\logo\Logo_236x50.jpg" />
     <Content Include="assets\img\marker.png" />
+    <Content Include="assets\img\projects\backbone.png" />
     <Content Include="assets\img\projects\global-goals-fund.png" />
     <Content Include="assets\img\projects\wealth-economy.png" />
     <Content Include="assets\img\team\SencerOzokur.jpg" />

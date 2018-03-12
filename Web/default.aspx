@@ -215,22 +215,31 @@
                 <div class="owl-carousel-v4 owl-theme">
                     <div class="owl-slider-v4">
                         <div class="item">
-                            <h3>Wealth Economy
+                            <h3>Backbone
                             </h3>
-                            <img src="assets/img/projects/wealth-economy.png" alt="Wealth Economy Screenshot" width="600" height="360" />
+                            <img src="assets/img/projects/backbone.png" alt="Backbone screenshot" width="600" height="360" />
                             <p class="owl-p">
-                                Experimental ideas on increasing sustainability and productivity.
+                                Public API service for rapid app prototyping
                             </p>
-                            <a href="https://wealth.forcrowd.org" target="_blank" class="owl-a">View Project</a>
+                            <a href="https://backbone.forcrowd.org" target="_blank" class="owl-a">View Project</a>
                         </div>
                         <div class="item">
                             <h3>Global Goals Fund
                             </h3>
                             <img src="assets/img/projects/global-goals-fund.png" alt="Global Goals Fund Screenshot" width="600" height="360" />
                             <p class="owl-p">
-                                The prototype of our project that we presented at United Nation's Connect2Effect Hackathon.
+                                A custom prototype that we developed for United Nation's Connect2Effect Hackathon
                             </p>
                             <a href="http://globalgoalsfund.forcrowd.org" target="_blank" class="owl-a">View Project</a>
+                        </div>
+                        <div class="item">
+                            <h3>Wealth Economy
+                            </h3>
+                            <img src="assets/img/projects/wealth-economy.png" alt="Wealth Economy Screenshot" width="600" height="360" />
+                            <p class="owl-p">
+                                Experimental ideas on increasing sustainability and productivity
+                            </p>
+                            <a href="https://wealth.forcrowd.org" target="_blank" class="owl-a">View Project</a>
                         </div>
                     </div>
                 </div>

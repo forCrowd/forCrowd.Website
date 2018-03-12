@@ -1,5 +1,9 @@
 ### Changelog
 
+**1.0.8**
+
+* Content updates
+
 **1.0.7**
 
 * web.config - HTTPS rule
