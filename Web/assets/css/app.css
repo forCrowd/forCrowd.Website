@@ -2097,6 +2097,10 @@ a.btn-u-xs {
     }
 }
 
+.crew-member {
+    width: 212.5px;
+}
+
 .crew-member-wrapper {
     position: relative;
     border: 2px solid #555;

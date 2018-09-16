@@ -27,7 +27,7 @@
     <link rel="stylesheet" href="assets/plugins/pace/pace-flash.css" />
 
     <!-- CSS Theme -->
-    <link rel="stylesheet" href="assets/css/app.css?v=1.0.3" />
+    <link rel="stylesheet" href="assets/css/app.css?v=1.0.9" />
 
     <script>
         (function (i, s, o, g, r, a, m) {
@@ -67,7 +67,7 @@
                             <a href="#about">About</a>
                         </li>
                         <li class="page-scroll">
-                            <a href="#projects">Project</a>
+                            <a href="#projects">Projects</a>
                         </li>
                         <li class="page-scroll">
                             <a href="#invest">Invest</a>
@@ -129,7 +129,7 @@
 
                     <hr class="devider devider-dashed" />
 
-                    <p>forCrowd Foundation is a <strong>for-benefit</strong> organization.</p>
+                    <p>forCrowd Foundation is a <strong>for-benefit</strong> software organization.</p>
                     <p>
                         We aim to provide the most benefit to society by, focusing social issues, sharing our knowledge,
                         removing the profit from the equation and being transparent.
@@ -138,10 +138,10 @@
                         Our vision is to make you independent, by creating applications that any other organization can replicate.
                         We believe this is the ultimate level in the competition.
                     </p>
-                    <p>
+                    <%--                    <p>
                         In other words, the deal is; we are the employees, you are the boss.
                         We work for you and provide the solutions, you take care of the expenses.
-                    </p>
+                    </p>--%>
                     <%--                <hr class="devider devider-dashed" />
                     <p>
                         However, in today's system, being a for-benefit organization is not a financially wise decision.
@@ -158,7 +158,7 @@
                                 <h4>SOCIAL ISSUES</h4>
                                 <p>
                                     Our goal is to contribute to well-being of society.<br />
-                                    Creating applications that aim to solve social issues will be high priority for us.
+                                    Creating applications that aim to solve social issues will be our top priority.
                                 </p>
                             </div>
                         </div>
@@ -182,11 +182,11 @@
                                 <h4>NONPROFIT</h4>
                                 <p>
                                     Our primary focus is to seek public interest.<br />
-                                    As long as we can cover our expenses, we will be at your service.
+                                    We aim to be fully financially transparent and keep dividing the costs among its supporters.
                                 </p>
                             </div>
                         </div>
-                        <div class="col-sm-12 g-mb-30">
+                        <%--                        <div class="col-sm-12 g-mb-30">
                             <div class="icon-md-wrapper pull-left g-mr-20 text-center">
                                 <i class="fa fa-glass icon-md g-theme-text-color"></i>
                             </div>
@@ -197,7 +197,7 @@
                                     We aim to be as open as possible, both financially and in decisions-making.
                                 </p>
                             </div>
-                        </div>
+                        </div>--%>
                     </div>
                 </div>
             </div>
@@ -255,15 +255,15 @@
             </div>
             <div class="row">
                 <!-- Left Part -->
-                <div class="col-xs-6 col-2xs-12 g-2xs-mb-30 g-mb-40">
+                <div class="col-xs-6 col-2xs-12 g-pr-30 g-mb-40">
                     <p>
                         We are a brand new organization with a lot of ideas.
                     </p>
                     <p>
-                        In all our projects, we will calculate the initial and running costs and try to divide the amount within our supporters.
+                        In all our projects, we aim to calculate the initial and running costs and divide the amount within our supporters.
                     </p>
                     <p>
-                        By using this approach, we believe we can create many interesting crowd financed applications.
+                        By this approach, we believe we can create many interesting crowd financed applications.
                     </p>
                 </div>
                 <!-- /Left Part -->
@@ -328,7 +328,7 @@
             <div class="row">
                 <!-- Col -->
                 <div class="col-md-4 col-sm-6 col-xs-6 col-2xs-12">
-                    <div class="crew-member g-mb-50">
+                    <div class="crew-member center-block g-mb-50">
                         <div class="crew-member-wrapper g-mb-40">
                             <img src="assets/img/team/SerkanHolat.jpg" alt="" />
                             <div>
@@ -346,7 +346,7 @@
                 <!-- /Col -->
                 <!-- Col -->
                 <div class="col-md-4 col-sm-6 col-xs-6 col-2xs-12">
-                    <div class="crew-member g-mb-50">
+                    <div class="crew-member center-block g-mb-50">
                         <div class="crew-member-wrapper g-mb-40">
                             <img src="assets/img/team/OzgurSengelli.jpg" alt="" />
                             <div>
@@ -363,7 +363,7 @@
                 <!-- /Col -->
                 <!-- Col -->
                 <div class="col-md-4 col-sm-6 col-xs-6 col-2xs-12">
-                    <div class="crew-member g-mb-50">
+                    <div class="crew-member center-block g-mb-50">
                         <div class="crew-member-wrapper g-mb-40">
                             <img src="assets/img/team/FatihSoylemez.jpg" alt="" />
                             <div>
@@ -373,14 +373,14 @@
                                 </ul>
                             </div>
                         </div>
-                        <em class="crew__role">ADVISORY</em>
+                        <em class="crew__role">ADVISOR</em>
                         <strong class="crew__name">FATIH SOYLEMEZ</strong>
                         <span class="crew__position">aphelion</span>
                     </div>
                 </div>
                 <!-- /Col -->
                 <!-- Col -->
-<%--                <div class="col-md-3 col-sm-6 col-xs-6 col-2xs-12">
+                <%--                <div class="col-md-3 col-sm-6 col-xs-6 col-2xs-12">
                     <div class="crew-member g-mb-50">
                         <div class="crew-member-wrapper g-mb-40">
                             <img src="assets/img/team/SencerOzokur.jpg" alt="" />
