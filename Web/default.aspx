@@ -233,9 +233,9 @@
                             <a href="http://globalgoalsfund.forcrowd.org" target="_blank" class="owl-a">View Project</a>
                         </div>
                         <div class="item">
-                            <h3>Wealth Economy
+                            <h3>Wealth Framework
                             </h3>
-                            <img src="assets/img/projects/wealth-economy.png" alt="Wealth Economy Screenshot" width="600" height="360" />
+                            <img src="assets/img/projects/wealth-framework.png" alt="Wealth Framework Screenshot" width="600" height="360" />
                             <p class="owl-p">
                                 Experimental ideas on increasing sustainability and productivity
                             </p>
