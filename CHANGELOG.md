@@ -1,5 +1,9 @@
 ### Changelog
 
+**1.0.11**
+
+* Content updates
+
 **1.0.10**
 
 * Content updates

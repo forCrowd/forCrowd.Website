@@ -63,15 +63,15 @@
                         <li class="page-scroll home">
                             <a href="#body">Home</a>
                         </li>
-                        <li class="page-scroll">
+<%--                        <li class="page-scroll">
                             <a href="#about">About</a>
-                        </li>
+                        </li>--%>
                         <li class="page-scroll">
                             <a href="#projects">Projects</a>
                         </li>
-                        <li class="page-scroll">
+<%--                        <li class="page-scroll">
                             <a href="#invest">Invest</a>
-                        </li>
+                        </li>--%>
                         <li class="page-scroll">
                             <a href="#crew">Crew</a>
                         </li>
@@ -94,8 +94,9 @@
                     <div class="col-sm-8 col-sm-offset-2 text-center">
                         <div class="promo-block__item page-scroll">
                             <h2 class="promo-block__item-text g-mb-20">forCrowd Foundation</h2>
-                            <p class="promo-block__item-text1 g-mb-50">Open Source. Nonprofit. Crowd. Solutions.</p>
-                            <a href="#about" class="btn-u btn-brd btn-brd-hover btn-u-light">LEARN MORE</a>
+                            <p class="promo-block__item-text1 g-mb-50">Experimental Open Source Projects</p>
+                            <%--<p class="promo-block__item-text1 g-mb-50">Open Source. Nonprofit. Crowd. Solutions.</p>--%>
+                            <%--<a href="#about" class="btn-u btn-brd btn-brd-hover btn-u-light">LEARN MORE</a>--%>
                         </div>
                     </div>
                 </div>
@@ -103,7 +104,7 @@
         </div>
     </section>
 
-    <section id="about" class="content">
+<%--<section id="about" class="content">
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
@@ -138,15 +139,6 @@
                         Our vision is to make you independent, by creating applications that any other organization can replicate.
                         We believe this is the ultimate level in the competition.
                     </p>
-                    <%--                    <p>
-                        In other words, the deal is; we are the employees, you are the boss.
-                        We work for you and provide the solutions, you take care of the expenses.
-                    </p>--%>
-                    <%--                <hr class="devider devider-dashed" />
-                    <p>
-                        However, in today's system, being a for-benefit organization is not a financially wise decision.
-                        And that is exactly what we study in our first project.
-                    </p>--%>
                 </div>
                 <div class="col-sm-6 g-mb-40 g-pl-30">
                     <div class="row">
@@ -186,23 +178,11 @@
                                 </p>
                             </div>
                         </div>
-                        <%--                        <div class="col-sm-12 g-mb-30">
-                            <div class="icon-md-wrapper pull-left g-mr-20 text-center">
-                                <i class="fa fa-glass icon-md g-theme-text-color"></i>
-                            </div>
-                            <div class="icon-md-text">
-                                <h4>TRANSPARENT</h4>
-                                <p>
-                                    We believe transparency is crucial for a healthy society.<br />
-                                    We aim to be as open as possible, both financially and in decisions-making.
-                                </p>
-                            </div>
-                        </div>--%>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </section>--%>
 
     <section id="projects" class="content">
         <div class="container-fluid">
@@ -228,7 +208,7 @@
                             </h3>
                             <img src="assets/img/projects/global-goals-fund.png" alt="Global Goals Fund Screenshot" width="600" height="360" />
                             <p class="owl-p">
-                                A custom prototype that we developed for United Nation's Connect2Effect Hackathon
+                                United Nation's Connect2Effect hackathon prototype based on Wealth Framework
                             </p>
                             <a href="http://globalgoalsfund.forcrowd.org" target="_blank" class="owl-a">View Project</a>
                         </div>
@@ -237,7 +217,7 @@
                             </h3>
                             <img src="assets/img/projects/wealth-framework.png" alt="Wealth Framework Screenshot" width="600" height="360" />
                             <p class="owl-p">
-                                Experimental ideas on increasing sustainability and productivity
+                                Crowd controlled public fund experiment
                             </p>
                             <a href="https://wealth.forcrowd.org" target="_blank" class="owl-a">View Project</a>
                         </div>
@@ -248,13 +228,12 @@
         </div>
     </section>
 
-    <section id="invest" class="content">
+<%--    <section id="invest" class="content">
         <div class="container">
             <div class="g-heading">
                 <h2><strong>INVEST</strong></h2>
             </div>
             <div class="row">
-                <!-- Left Part -->
                 <div class="col-xs-6 col-2xs-12 g-pr-30 g-mb-40">
                     <p>
                         We are a brand new organization with a lot of ideas.
@@ -266,10 +245,7 @@
                         By this approach, we believe we can create many interesting crowd financed applications.
                     </p>
                 </div>
-                <!-- /Left Part -->
-                <!-- Right Part -->
                 <div class="col-xs-6 col-2xs-12 g-pl-30 g-mb-40">
-                    <!-- Right Part Item -->
                     <div class="g-mb-30">
                         <div class="icon-md-wrapper pull-left g-mr-20 text-center">
                             <i class="fa fa-check icon-md g-theme-text-color"></i>
@@ -281,7 +257,6 @@
                             </p>
                         </div>
                     </div>
-                    <!-- Right Part Item -->
                     <div class="g-mb-30">
                         <div class="icon-md-wrapper pull-left g-mr-20 text-center">
                             <i class="fa fa-check icon-md g-theme-text-color"></i>
@@ -309,7 +284,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section>--%>
 
     <section id="crew" class="content text-center">
         <div class="crew-start">
@@ -338,7 +313,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <em class="crew__role">CAP'N</em>
+                        <%--<em class="crew__role">CAP'N</em>--%>
                         <strong class="crew__name">SERKAN HOLAT</strong>
                         <span class="crew__position">coni2k</span>
                     </div>
@@ -355,7 +330,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <em class="crew__role">1ST MATE</em>
+                        <%--<em class="crew__role">1ST MATE</em>--%>
                         <strong class="crew__name">OZGUR SENGELLI</strong>
                         <span class="crew__position">ramirez</span>
                     </div>
@@ -373,7 +348,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <em class="crew__role">ADVISOR</em>
+                        <%--<em class="crew__role">ADVISOR</em>--%>
                         <strong class="crew__name">FATIH SOYLEMEZ</strong>
                         <span class="crew__position">aphelion</span>
                     </div>
@@ -427,7 +402,7 @@
                 <!-- /Contacts -->
                 <!-- Map -->
                 <div class="col-md-4 contact-col">
-                    <div id="map" class="contact-map"></div>
+                    <img class="img-responsive" src="assets/img/map.png" alt="Amsterdam map" />
                 </div>
                 <!-- /Map -->
                 <!-- Ask Block -->
@@ -480,12 +455,9 @@
     <!-- JS Page Level-->
     <script src="assets/js/app.js"></script>
     <script src="assets/js/forms/contact.js"></script>
-    <script src="assets/js/plugins/gmaps-ini.js"></script>
     <script src="assets/js/plugins/owl-carousel2.js"></script>
     <script src="assets/js/plugins/pace-loader.js"></script>
     <script src="assets/js/plugins/promo.js"></script>
-
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVmI_x-nhm_-JYCT61JsWi-JH2ncjOQoM&callback=initMap" async="async" defer="defer" type="text/javascript"></script>
 
     <script>
         $(function () {
