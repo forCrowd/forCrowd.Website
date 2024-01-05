@@ -4,13 +4,13 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <!--<![endif]-->
 <head runat="server">
-    <title>forCrowd Foundation</title>
+    <title>forCrowd</title>
     <!-- Meta -->
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="forCrowd Foundation" />
-    <meta name="description" content="forCrowd Foundation Website" />
+    <meta name="author" content="forCrowd" />
+    <meta name="description" content="forCrowd Website" />
     <!-- Favicon -->
     <link rel="shortcut icon" href="favicon.ico" />
     <!-- Web Fonts -->
@@ -53,7 +53,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="#body">
-                    <img class="img-responsive" src="assets/img/logo/Logo_236x50.jpg" alt="logo" />
+                    <img class="img-responsive" src="assets/img/logo/Logo_236x50.jpg?v=240104" alt="logo" />
                 </a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -93,7 +93,7 @@
                 <div class="row">
                     <div class="col-sm-8 col-sm-offset-2 text-center">
                         <div class="promo-block__item page-scroll">
-                            <h2 class="promo-block__item-text g-mb-20">forCrowd Foundation</h2>
+                            <h2 class="promo-block__item-text g-mb-20">forCrowd</h2>
                             <p class="promo-block__item-text1 g-mb-50">Experimental Open Source Projects</p>
                             <%--<p class="promo-block__item-text1 g-mb-50">Open Source. Nonprofit. Crowd. Solutions.</p>--%>
                             <%--<a href="#about" class="btn-u btn-brd btn-brd-hover btn-u-light">LEARN MORE</a>--%>
@@ -130,7 +130,7 @@
 
                     <hr class="devider devider-dashed" />
 
-                    <p>forCrowd Foundation is a <strong>for-benefit</strong> software organization.</p>
+                    <p>forCrowd is a <strong>for-benefit</strong> software organization.</p>
                     <p>
                         We aim to provide the most benefit to society by, focusing social issues, sharing our knowledge,
                         removing the profit from the equation and being transparent.
@@ -390,13 +390,13 @@
                     <ul class="list-unstyled address">
                         <li>email: <strong><a href="mailto:contact@forcrowd.org" target="_blank">contact@forcrowd.org</a></strong></li>
                         <li>made in: <strong>Amsterdam / Netherlands</strong></li>
-                        <li>kvk: <strong>63164647</strong></li>
+                        <!-- <li>kvk: <strong>63164647</strong></li> -->
                     </ul>
                     <ul class="g-social-icons-v2 g-mb-30">
-                        <li><a href="https://twitter.com/forCrowd" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="https://github.com/forCrowd" target="_blank"><i class="fa fa-github"></i></a></li>
-                        <li><a href="https://medium.com/@forCrowd" target="_blank"><i class="fa fa-medium"></i></a></li>
                         <li><a href="https://www.linkedin.com/company/forcrowd" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="https://github.com/forCrowd" target="_blank"><i class="fa fa-github"></i></a></li>
+                        <li><a href="https://twitter.com/forCrowd" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="https://medium.com/@forCrowd" target="_blank"><i class="fa fa-medium"></i></a></li>
                     </ul>
                 </div>
                 <!-- /Contacts -->

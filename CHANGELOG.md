@@ -1,5 +1,9 @@
 ### Changelog
 
+**1.0.12**
+
+* Content updates: Replace forCrowd Foundation with forCrowd
+
 **1.0.11**
 
 * Content updates

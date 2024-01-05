@@ -6,9 +6,9 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("forCrowd Website")]
-[assembly: AssemblyDescription("forCrowd Foundation Website")]
+[assembly: AssemblyDescription("forCrowd Website")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("forCrowd Foundation")]
+[assembly: AssemblyCompany("forCrowd")]
 [assembly: AssemblyProduct("forCrowd Website")]
 [assembly: AssemblyCopyright("")]
 [assembly: AssemblyTrademark("")]
