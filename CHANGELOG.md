@@ -1,8 +1,17 @@
 ### Changelog
 
+**1.0.13**
+
+* Clean-up the unused ASP.NET related files, folders and features
+* Content updates
+
 **1.0.12**
 
 * Content updates: Replace forCrowd Foundation with forCrowd
+
+**1.0.11b**
+
+* Update web.config
 
 **1.0.11**
 
