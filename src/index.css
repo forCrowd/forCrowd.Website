@@ -25,10 +25,10 @@ body {
 /* CHECK THIS PLACE */
 
 i.icon-md {
-    font-size: 40px;
-    width: 45px;
-    height: 45px;
-    line-height: 45px;
+    font-size: 24px;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
     display: inline-block;
 }
 
@@ -41,6 +41,7 @@ i.icon-md {
 }
 
 hr {
+    border-top-color: #333;
     margin: 30px 0;
 }
 
@@ -91,7 +92,6 @@ h6 {
 .g-heading {
     padding-bottom: 18px;
     position: relative;
-    margin-top: -15px;
     margin-bottom: 30px;
 }
 
@@ -141,6 +141,13 @@ img.image-sm {
 img.image-md {
     width: 100px;
     height: 100px;
+}
+
+img.portfolio-image {
+    border: 2px solid black;
+    height: 64px;
+    margin-bottom: 16px;
+    width: 64px;
 }
 
 /*Spaces
@@ -1946,6 +1953,28 @@ a.btn-u-xs {
 ----------------------------------------------------*/
 
 #about {
+    background: #e7e7e7;
+}
+
+#about .services-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#about .services-container .services-item {
+    display: flex;
+    padding: 8px;
+}
+
+#about .services-container .services-item .services-icon {
+    flex-basis: 48px;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+#about .services-container .services-item .services-text {
+    flex: 1;
 }
 
 /*--------------------------------------------------
@@ -2045,11 +2074,16 @@ a.btn-u-xs {
     }
 }
 
-/*--------------------------------------------------
-    [Invest Section]
-----------------------------------------------------*/
+#software {
+    background: #fff;
+}
 
-#invest {
+#consultancy {
+    background: #e7e7e7;
+}
+
+#research {
+    background: #fff;
 }
 
 /*--------------------------------------------------
