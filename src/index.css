@@ -1977,103 +1977,6 @@ a.btn-u-xs {
     flex: 1;
 }
 
-/*--------------------------------------------------
-    [Projects Section]
-----------------------------------------------------*/
-
-#projects {
-    background: #e7e7e7;
-}
-
-    /* Designing the first owl carousel */
-    #projects .owl-carousel-v4 .owl-slider-v4 .item {
-        text-align: center;
-    }
-
-        #projects .owl-carousel-v4 .owl-slider-v4 .item img {
-            margin: 0 auto 30px;
-            display: block;
-            max-width: 600px;
-            max-height: 360px;
-        }
-
-    #projects .owl-carousel-v4 .owl-h3 {
-        font: 700 14px "Roboto", Arial, Sans-serif;
-        text-transform: uppercase;
-        /*color: #fff;*/
-        margin: 0 0 20px;
-        letter-spacing: 1px;
-    }
-
-    #projects .owl-carousel-v4 .owl-p {
-        max-width: 50%;
-        margin: 0 auto 40px;
-    }
-
-    #projects .owl-carousel-v4 .owl-a {
-        color: #3f647f;
-        font-size: 11px;
-        font-weight: bold;
-        text-transform: uppercase;
-        margin-bottom: 10px;
-    }
-
-        #projects .owl-carousel-v4 .owl-a:hover, #projects .owl-carousel-v4 .owl-a:focus,
-        .award-a:hover, .award-a:focus {
-            color: #3f647f;
-        }
-
-    /* Owl-carousel controls */
-    #projects .owl-theme .owl-controls .owl-buttons div {
-        padding: 13px 17px;
-        color: #fff;
-        background: #555;
-        border-radius: 50%;
-    }
-
-        #projects .owl-theme .owl-controls .owl-buttons div:hover,
-        #projects .owl-theme .owl-controls .owl-buttons div:focus {
-            background: #3f647f;
-        }
-
-    #projects .owl-theme .owl-buttons i {
-        margin-top: 2px;
-    }
-
-    #projects .owl-theme .owl-controls .owl-buttons div {
-        position: absolute;
-    }
-
-    #projects .owl-theme .owl-controls .owl-buttons .owl-prev {
-        left: 10%;
-        top: 35%;
-    }
-
-    #projects .owl-theme .owl-controls .owl-buttons .owl-next {
-        right: 10%;
-        top: 35%;
-    }
-
-@media (max-width: 991px) {
-    #projects .owl-theme .owl-controls .owl-buttons .owl-prev {
-        left: 0;
-    }
-
-    #projects .owl-theme .owl-controls .owl-buttons .owl-next {
-        right: 0;
-    }
-}
-
-@media (max-width: 768px) {
-    #projects .owl-theme .owl-controls .owl-buttons .owl-prev {
-        top: 80%;
-    }
-
-    #projects .owl-theme .owl-controls .owl-buttons .owl-next {
-        top: 80%;
-    }
-}
-
 #software {
     background: #fff;
 }
@@ -2084,6 +1987,103 @@ a.btn-u-xs {
 
 #research {
     background: #fff;
+}
+
+#experiments {
+    background: #e7e7e7;
+}
+
+    #experiments .owl-carousel-v4 {
+        margin-top: 48px;
+    }
+
+    /* Designing the first owl carousel */
+    #experiments .owl-carousel-v4 .owl-slider-v4 .item {
+        text-align: center;
+    }
+
+        #experiments .owl-carousel-v4 .owl-slider-v4 .item img {
+            margin: 0 auto 30px;
+            display: block;
+            max-width: 600px;
+            max-height: 360px;
+        }
+
+    #experiments .owl-carousel-v4 .owl-h3 {
+        font: 700 14px "Roboto", Arial, Sans-serif;
+        text-transform: uppercase;
+        /*color: #fff;*/
+        margin: 0 0 20px;
+        letter-spacing: 1px;
+    }
+
+    #experiments .owl-carousel-v4 .owl-p {
+        max-width: 50%;
+        margin: 0 auto 40px;
+    }
+
+    #experiments .owl-carousel-v4 .owl-a {
+        color: #3f647f;
+        font-size: 11px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }
+
+        #experiments .owl-carousel-v4 .owl-a:hover, #experiments .owl-carousel-v4 .owl-a:focus,
+        .award-a:hover, .award-a:focus {
+            color: #3f647f;
+        }
+
+    /* Owl-carousel controls */
+    #experiments .owl-theme .owl-controls .owl-buttons div {
+        padding: 13px 17px;
+        color: #fff;
+        background: #555;
+        border-radius: 50%;
+    }
+
+        #experiments .owl-theme .owl-controls .owl-buttons div:hover,
+        #experiments .owl-theme .owl-controls .owl-buttons div:focus {
+            background: #3f647f;
+        }
+
+    #experiments .owl-theme .owl-buttons i {
+        margin-top: 2px;
+    }
+
+    #experiments .owl-theme .owl-controls .owl-buttons div {
+        position: absolute;
+    }
+
+    #experiments .owl-theme .owl-controls .owl-buttons .owl-prev {
+        left: 10%;
+        top: 35%;
+    }
+
+    #experiments .owl-theme .owl-controls .owl-buttons .owl-next {
+        right: 10%;
+        top: 35%;
+    }
+
+@media (max-width: 991px) {
+    #experiments .owl-theme .owl-controls .owl-buttons .owl-prev {
+        left: 0;
+    }
+
+    #experiments .owl-theme .owl-controls .owl-buttons .owl-next {
+        right: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    #experiments .owl-theme .owl-controls .owl-buttons .owl-prev {
+        top: 80%;
+    }
+
+    #experiments .owl-theme .owl-controls .owl-buttons .owl-next {
+        top: 80%;
+    }
 }
 
 /*--------------------------------------------------
