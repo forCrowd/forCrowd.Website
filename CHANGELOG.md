@@ -1,5 +1,9 @@
 ### Changelog
 
+**2.0.4**
+
+* Content updates
+
 **1.0.13**
 
 * Clean-up the unused ASP.NET related files, folders and features
